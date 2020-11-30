@@ -1,0 +1,17 @@
+user environment not found termux-error
+copy and save the below code give execute 
+Permission "chmod +x file name" 
+
+#copy code
+#lets rock
+#every credits goes to the unknown person answered to these question
+# :-) even works in linux os
+
+cd ..
+rm -rf /tmp/.X11-unix
+rm /tmp/.X1-lock
+cd /root/.vnc
+rm localhost:1.log
+rm localhost:1.pid
+USER=sabari vncserver
+
