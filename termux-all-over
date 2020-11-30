@@ -1,0 +1,8 @@
+Did you know termux only show "storage" other than
+that how can i access my all files in storage
+Not for geek average user
+
+TYPE
+
+cd /sdcard
+echo "wow all my files"
