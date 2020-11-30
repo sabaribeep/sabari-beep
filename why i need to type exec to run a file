@@ -1,0 +1,14 @@
+Yes why you need to type
+exec or ./filename to run a file always in linux
+
+Simple trick (not for geek )
+
+store you executable file in these folder
+  user/bin/
+after these just type name of the file :)
+
+otherwise add PATH in bash.bashrc termux file
+#open file
+nano /data/data/com.termux/files/usr/etc/bash.bashrc
+#type in the file
+export PATH=$PATH:/place/to/the/file
